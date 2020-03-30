@@ -1,6 +1,6 @@
 # Assignment 2: Model
 
-Simple openGL shader renderer in C++ in the context of the second homework of the fundamentals of computer graphics course held by Prof. Fabio Pellacini.
+Simple openGL shader renderer in C++ displacement mapping and hair growing generation. Developed in the context of the second homework of the fundamentals of computer graphics course held by Prof. Fabio Pellacini.
 
 <img src="tests/13_subdivcube.png"/>
 
