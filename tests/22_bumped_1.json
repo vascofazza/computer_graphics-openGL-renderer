@@ -1,0 +1,20 @@
+{
+    "lookat_camera": { "from": [0,0,2] },
+    "meshes": [
+        {
+            "frame": { "o": [0,0,0] },
+            "pos": [ 0.5,0.5,0, -0.5,0.5,0, -0.5,-0.5,0, 0.5,-0.5,0 ],
+            "norm": [ 0,0,1, 0,0,1, 0,0,1, 0,0,1 ],
+            "texcoord": [ 1,1, 0,1, 0,0, 1,0 ],
+            "quad": [ 0,1,2,3 ],
+            "subdivision_level": 9,
+            "material": { "kd": [1,1,1], "ks": [0.8,0.8,0.8], "n": 100, "bump_factor": 0.03,
+                "kd_txt": "models/textures/menzel/stone-12_diff_cropped.png",
+                "ks_txt": "models/textures/menzel/stone-12_spec_cropped.png",
+                "bump_txt": "models/textures/menzel/stone-12_bump_cropped.png"}
+        }
+    ],
+    "lights": [
+        { "frame": { "o": [4,2,2.5] }, "intensity": [25,25,25] }
+    ]
+}

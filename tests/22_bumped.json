@@ -1,0 +1,47 @@
+{
+    "lookat_camera": { "from": [0,0,2] },
+    "meshes": [
+        {
+            "frame": { "o": [-0.5,0.5,0] },
+            "pos": [ 0.5,0.5,0, -0.5,0.5,0, -0.5,-0.5,0, 0.5,-0.5,0 ],
+            "norm": [ 0,0,1, 0,0,1, 0,0,1, 0,0,1 ],
+            "texcoord": [ 1,1, 0,1, 0,0, 1,0 ],
+            "quad": [ 0,1,2,3 ],
+            "material": { "kd": [1,1,1], "ks": [0,0,0], "n": 100,
+                "norm_txt": "models/textures/menzel/stone-12_norm_cropped.png" }
+        },
+        {
+            "frame": { "o": [0.5,0.5,0] },
+            "pos": [ 0.5,0.5,0, -0.5,0.5,0, -0.5,-0.5,0, 0.5,-0.5,0 ],
+            "norm": [ 0,0,1, 0,0,1, 0,0,1, 0,0,1 ],
+            "texcoord": [ 1,1, 0,1, 0,0, 1,0 ],
+            "quad": [ 0,1,2,3 ],
+            "material": { "kd": [1,1,1], "ks": [0,0,0], "n": 100,
+                "kd_txt": "models/textures/menzel/stone-12_diff_cropped.png" }
+        },
+        {
+            "frame": { "o": [-0.5,-0.5,0] },
+            "pos": [ 0.5,0.5,0, -0.5,0.5,0, -0.5,-0.5,0, 0.5,-0.5,0 ],
+            "norm": [ 0,0,1, 0,0,1, 0,0,1, 0,0,1 ],
+            "texcoord": [ 1,1, 0,1, 0,0, 1,0 ],
+            "quad": [ 0,1,2,3 ],
+            "material": { "kd": [1,1,1], "ks": [0,0,0], "n": 100,
+                "kd_txt": "models/textures/menzel/stone-12_diff_cropped.png",
+                "norm_txt": "models/textures/menzel/stone-12_norm_cropped.png" }
+        },
+        {
+            "frame": { "o": [0.5,-0.5,0] },
+            "pos": [ 0.5,0.5,0, -0.5,0.5,0, -0.5,-0.5,0, 0.5,-0.5,0 ],
+            "norm": [ 0,0,1, 0,0,1, 0,0,1, 0,0,1 ],
+            "texcoord": [ 1,1, 0,1, 0,0, 1,0 ],
+            "quad": [ 0,1,2,3 ],
+            "material": { "kd": [1,1,1], "ks": [0,0,0], "n": 100,
+                "kd_txt": "models/textures/menzel/stone-12_diff_cropped.png",
+                "ks_txt": "models/textures/menzel/stone-12_spec_cropped.png",
+                "norm_txt": "models/textures/menzel/stone-12_norm_cropped.png" }
+        }
+    ],
+    "lights": [
+        { "frame": { "o": [0,0,5] }, "intensity": [10,10,10] }
+    ]
+}

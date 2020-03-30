@@ -1,0 +1,69 @@
+{
+    "lookat_camera": { "from": [3,8,3] },
+    "meshes": [
+        {
+            "frame": { "o": [-2,0,2] },
+            "json_mesh": "models/cube.json",
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [-2,0,0] },
+            "json_mesh": "models/cube_nn.json",
+            "subdivision_catmullclark_level": 1,
+            "subdivision_catmullclark_smooth": false,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [-2,0,-2] },
+            "json_mesh": "models/cube_nn.json",
+            "subdivision_catmullclark_level": 2,
+            "subdivision_catmullclark_smooth": false,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [0,0,2] },
+            "json_mesh": "models/cube_nn.json",
+            "subdivision_catmullclark_level": 3,
+            "subdivision_catmullclark_smooth": false,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [0,0,0] },
+            "json_mesh": "models/cube_nn.json",
+            "subdivision_catmullclark_level": 4,
+            "subdivision_catmullclark_smooth": false,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [0,0,-2] },
+            "json_mesh": "models/cube_nn.json",
+            "subdivision_catmullclark_level": 5,
+            "subdivision_catmullclark_smooth": false,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [2,0,2] },
+            "json_mesh": "models/cube_nn.json",
+            "subdivision_catmullclark_level": 3,
+            "subdivision_catmullclark_smooth": true,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [2,0,0] },
+            "json_mesh": "models/cube_nn.json",
+            "subdivision_catmullclark_level": 4,
+            "subdivision_catmullclark_smooth": true,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [2,0,-2] },
+            "json_mesh": "models/cube_nn.json",
+            "subdivision_catmullclark_level": 5,
+            "subdivision_catmullclark_smooth": true,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        }
+    ],
+    "lights": [
+        { "frame": { "o": [0,5,0] }, "intensity": [20,20,20] }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "lookat_camera": { "from": [0,0,6] },
+    "meshes": [
+        {
+            "json_mesh": "models/pyramid.json",
+        	"frame": { "o": [-1.2, 1.2,0] },
+            "material": { "kd": [1,0.75,0.75], "ks": [0.7,0.7,0.7], "n": 100 } 
+        },
+        {
+            "json_mesh": "models/cube.json",
+        	"frame": { "o": [ 1.2, 1.2,0] },
+            "material": { "kd": [0.75,1,0.75], "ks": [0.7,0.7,0.7], "n": 100 } 
+        },
+        {
+            "json_mesh": "models/sphere.json",
+        	"frame": { "o": [ 1.2,-1.2,0] },
+            "material": { "kd": [0.75,1,0.75], "ks": [0.7,0.7,0.7], "n": 100 } 
+        },
+        {
+            "json_mesh": "models/monkey.json",
+        	"frame": { "o": [-1.2,-1.2,0] },
+            "material": { "kd": [1,0.75,0.75], "ks": [0.7,0.7,0.7], "n": 100 } 
+        }
+    ],
+    "lights": [
+        { "frame": { "o": [0,0,5] }, "intensity": [10,10,10] }
+    ],
+    "image_samples": 4
+}

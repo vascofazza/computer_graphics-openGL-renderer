@@ -1,0 +1,9 @@
+{
+    "lookat_camera": { "from": [2,1,2], "to": [0,1,0] },
+    "json_meshes": "models/cartoon_girl/cartoon_girl.json",
+    "lights": [
+        { "frame": { "o": [4,4,4] }, "intensity": [50,50,50] },
+        { "frame": { "o": [-4,4,4] }, "intensity": [50,50,50] }
+    ],
+    "image_samples": 4
+}

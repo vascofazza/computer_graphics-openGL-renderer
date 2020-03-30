@@ -1,0 +1,36 @@
+{
+    "lookat_camera": { "from": [0,0,15], "width": 0.4, "height": 0.4 },
+    "meshes": [
+        {
+            "frame": { "o": [-1.5,1.5,0] },
+            "json_mesh": "models/monkey.json",
+            "subdivision_catmullclark_level": 0,
+            "subdivision_catmullclark_smooth": false,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [1.5,1.5,0] },
+            "json_mesh": "models/monkey.json",
+            "subdivision_catmullclark_level": 1,
+            "subdivision_catmullclark_smooth": false,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [-1.5,-1.5,0] },
+            "json_mesh": "models/monkey.json",
+            "subdivision_catmullclark_level": 2,
+            "subdivision_catmullclark_smooth": false,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        },
+        {
+            "frame": { "o": [1.5,-1.5,0] },
+            "json_mesh": "models/monkey.json",
+            "subdivision_catmullclark_level": 2,
+            "subdivision_catmullclark_smooth": true,
+            "material": { "kd": [0.7,0.7,0.7], "ks": [0.7,0.7,0.7], "n": 100 }
+        }
+    ],
+    "lights": [
+        { "frame": { "o": [0,0,5] }, "intensity": [10,10,10] }
+    ]
+}

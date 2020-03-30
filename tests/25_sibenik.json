@@ -1,0 +1,8 @@
+{
+    "lookat_camera": { "from": [-20,-2,0], "to": [-19,-2,0], 
+                       "width": 0.8, "height": 0.8 },
+    "json_meshes": "models/sibenik/sibenik.json",
+    "lights": [
+        { "frame": { "o": [-15,3,0] }, "intensity": [200,200,200] }
+    ]
+}

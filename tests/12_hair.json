@@ -1,0 +1,16 @@
+{
+    "lookat_camera": { "from": [0,0,10], "width": 0.4, "height": 0.4 },
+    "meshes": [
+        {
+            "json_mesh": "models/sphere.json"
+        },
+        {
+            "json_mesh": "gen/hair_sphere.json",
+            "material": { "kd": [0,0,0], "ks": [0,0,0] },
+            "subdivision_bezier_level": 4
+        }
+    ],
+    "lights": [
+        { "frame": { "o": [0,5,5] }, "intensity": [10,10,10] }
+    ]
+}

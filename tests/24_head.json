@@ -1,0 +1,7 @@
+{
+    "lookat_camera": { "from": [0,0,2], "width": 0.4, "height": 0.4 },
+    "json_meshes": "models/head/head.json",
+    "lights": [
+        { "frame": { "o": [0,0.5,0.5] }, "intensity": [0.1,0.1,0.1] }
+    ]
+}
